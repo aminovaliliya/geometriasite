@@ -1,0 +1,78 @@
+body{
+    background-color: #f7f7f7;
+}
+
+#pagecontent{
+    width: 1180px;
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    font-size: 19px;
+    line-height: 25px;
+    border-radius: 20px;
+}
+
+#pagecontent h1{
+    line-height: 35px;
+}
+
+.authorblock{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 15px;
+}
+
+.authorblock-left{
+    width: 75px;
+}
+
+.authorblock-left img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.authorblock-right{
+    padding: 10px 0 0 10px;
+}
+
+.authorblock-right .authorname{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.authorblock-right .authordescription{
+    font-size: 14px;
+    color: #727272;
+    font-style: italic;    
+}
+
+@media screen and (max-width: 1300px){
+    #pagecontent{
+        width: auto;
+    }
+}
+
+.geometry-banner{
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 768px){
+    #menu ol{
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 370px){
+    #pagecontent h1{
+        font-size: 30px;
+    }
+}
+
+
+
+.png, .geometry-banner{
+    max-width: 100%;
+    height: auto;
+}
+
